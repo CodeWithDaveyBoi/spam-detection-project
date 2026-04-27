@@ -2,9 +2,12 @@ import streamlit as st
 import pickle
 import re
 import string
+import nltk
+
+nltk.download('stopwords')
+
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-
 # Load model and vectorizer
 with open('../models/spam_model.pkl', 'rb') as f:
     model = pickle.load(f)

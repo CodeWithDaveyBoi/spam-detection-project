@@ -9,10 +9,10 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 # Load model and vectorizer
-with open('../models/spam_model.pkl', 'rb') as f:
+with open('spam_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('../models/tfidf_vectorizer.pkl', 'rb') as f:
+with open('tfidf_vectorizer.pkl', 'rb') as f:
     vectorizer = pickle.load(f)
 
 # Text cleaning setup

@@ -39,7 +39,7 @@ st.title("📩 Spam Detection System")
 
 st.write("Enter a message to check whether it is Spam or Not Spam.")
 
-st.write("Developed by Dave Fernandes (A-216) SYMCA 4th Sem.") (1430)
+st.write("Developed by Dave Fernandes (A-216) SYMCA 4th Sem. (1430)") 
 
 user_input = st.text_area("Enter your message here:")
 
